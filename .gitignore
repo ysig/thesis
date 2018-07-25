@@ -1,0 +1,19 @@
+# Latex Produced Files
+*.aux
+*.lof
+*.idx
+*.edx
+*.toc
+*.log
+*.lot
+*.run.xml
+*.bcf
+*.out
+*.bbl
+*.blg
+*.gz
+
+# Misc
+pyrforos-eps-converted-to.pdf
+main-blx.bib
+out/
