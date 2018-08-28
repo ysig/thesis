@@ -16,10 +16,9 @@
 \ProcessOptions
 \LoadClass[a4paper,11pt]{book}
 
-
-\usepackage[greek]{babel}
-\usepackage[utf8]{inputenc}
-
+\usepackage[english, greek]{babel}
+\usepackage[utf8]{inputenx}
+%\usepackage[utf8]{inputenc}
 
 \pagestyle{fancy}
 % Title Page and Front Matter
@@ -322,7 +321,7 @@
 \large{\textbf{\textsc{\@author}}}\\
 \large{Διπλωματούχος Ηλεκτρολόγος Μηχανικός και Μηχανικός
 Υπολογιστών Ε.Μ.Π.}\\
-\copyright\ \en{2018 -- All rights reserved}
+\en{\textcopyright} \en{2018 -- All rights reserved}
 
 }
 
