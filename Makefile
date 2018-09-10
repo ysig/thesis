@@ -1,6 +1,8 @@
 OUTPUT_DIR=out
 
-build: clean
+all: clean build clean
+
+build:
 	pdflatex main.tex; biber main; pdflatex main.tex
 
 clean:

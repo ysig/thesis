@@ -21,8 +21,8 @@
 \usepackage{graphicx}
 \usepackage{url}
 \usepackage{array}
-\usepackage{algorithm}
-\usepackage{algorithmic}
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
 \usepackage{babel}
 \usepackage{afterpage}
 \usepackage{caption}
@@ -35,6 +35,7 @@
 \usepackage{adjustbox}
 \usepackage{tabularx}
 \usepackage{textcomp}
+\usepackage[ruled,vlined]{algorithm2e}
 %\usepackage{makeidx}
 %\bibliographystyle{alpha}
 \bibliographystyle{abbrv}
@@ -46,6 +47,11 @@
 
 \newindex{default}{idx}{ind}{Ευρετήριο όρων}
 \newindex{en}{edx}{end}{Ευρετήριο αγγλικών όρων}
+
+\SetKwComment{Comment}{$\triangleright$\ }{}
+\SetAlFnt{\scriptsize}
+\SetAlCapFnt{\tiny}
+\SetAlCapNameFnt{\scriptsize}
 
 \DeclareMathOperator{\sign}{sign}
 
