@@ -39,6 +39,8 @@
 \usepackage[ruled,vlined]{algorithm2e}
 %\usepackage{makeidx}
 %\bibliographystyle{alpha}
+\usepackage{tikz}
+
 \bibliographystyle{abbrv}
 %\usepackage{xpatch}
 
@@ -127,6 +129,7 @@
 \newcommand{\cemph}[1]{{\color{RubineRed}\textbf{#1}}}
 %\xpretobibmacro{cite}{\selectlanguage{english}}{}{}
 %\xpretobibmacro{textcite}{\selectlanguage{english}}{}{}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 
 %\en{DaSciM - LiX}
 
@@ -135,8 +138,8 @@
 \supervisoremp{Ανδρέας Σταφυλοπάτης}
 \supervisorlix{Μιχάλης Βαζιργιάννης}
 \TRnumber{ΕΣΒΓΔ-ΔΙΠΛ-2017-02}
-\epitropiF{Θεοδώρα Βαρβαρίγου}
-\epitropiS{Ιωάννα Ρουσσάκη}
+\epitropiF{Μελος Ι}
+\epitropiS{Μελος ΙΙ}
 
 % make table of contents linkable to chaters
 \usepackage{color}   %May be necessary if you want to color links
@@ -173,7 +176,7 @@
 \include{chapter2}
 \include{chapter3}
 \include{chapter4}
-
+\include{chapter5}
 
 %OPTION #1: Embed bibliography from file `references.tex' using plain references.
 %\begin{thebibliography}{1}
