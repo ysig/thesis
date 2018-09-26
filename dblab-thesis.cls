@@ -161,7 +161,7 @@
             \begin{center}
                 %\Large \textsc{{\bfseries \@translator}}\\[12pt]
                
-                Αθήνα, Οκτόμβριος 2018
+                Αθήνα, Οκτώβριος 2018
             \end{center}
             %
            
@@ -231,7 +231,7 @@
             \begin{center}
                 %\Large \textsc{{\bfseries \@translator}}\\[12pt]
                 %\textsc{\@lab}\\
-                Αθήνα, Φεβρουάριος 2018
+                Αθήνα, Οκτώβριος 2018
             \end{center}
             %
       %      \fi
@@ -338,7 +338,7 @@
 }
 
 \approval{
-    Εγκρίθηκε από την τριμελή εξεταστική επιτροπή την 29η Ιουλίου 2018.
+    Εγκρίθηκε από την τριμελή εξεταστική επιτροπή την 18η Οκτωβρίου 2018.
     \begin{tabbing}
     aaaaaaaaaaaaaaaaaaaaaa\=aaaaaaaaaaaaaaaaaaaaaa\=\kill
     \textit{(Υπογραφή)}\>   \textit{(Υπογραφή)}\>  \textit{(Υπογραφή)}\\\\\\
