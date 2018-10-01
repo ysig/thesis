@@ -124,7 +124,14 @@
                 \hspace{1mm}
            \end{center}
 
+                \begin{minipage}{15cm}
+				\begin{tabbing}
+                    \large \textbf{\supervisorempname :} \hspace{0.9cm}\=\@supervisoremp\\
+                    \>Καθηγητής Ε.Μ.Π.
+                \end{tabbing}
+                \end{minipage}
 \vspace{1.3cm}
+
                 \begin{minipage}{15cm}
 				\begin{tabbing}
 				\large \textbf{\supervisorlixname :} \=\@supervisorlix\\
@@ -136,12 +143,7 @@
 \vspace{0.7cm}
 
 
-                \begin{minipage}{15cm}
-				\begin{tabbing}
-                    \large \textbf{\supervisorempname :} \hspace{0.9cm}\=\@supervisoremp\\
-                    \>Καθηγητής Ε.Μ.Π.
-                \end{tabbing}
-                \end{minipage}
+
                 
                 
                 
@@ -204,16 +206,6 @@
            \vfill
 
 \vspace{1.5cm}
-                \begin{minipage}{15cm}
-				\begin{tabbing}
-				\large \textbf{\supervisorlixname :} \=\@supervisorlix\\
-                    \>Καθηγητής \selectlanguage{english}Ecole Polytechnique\selectlanguage{greek}, Καθηγητής \selectlanguage{english}AUEB\selectlanguage{greek}\\
-                \end{tabbing}
-                \end{minipage}
-
-
-\vspace{0.6cm}
-
 
                 \begin{minipage}{15cm}
 				\begin{tabbing}
@@ -221,7 +213,16 @@
                     \>Καθηγητής Ε.Μ.Π.
                 \end{tabbing}
                 \end{minipage}
+\vspace{0.6cm}
+
+                \begin{minipage}{15cm}
+				\begin{tabbing}
+				\large \textbf{\supervisorlixname :} \=\@supervisorlix\\
+                    \>Καθηγητής \selectlanguage{english}Ecole Polytechnique\selectlanguage{greek}, Καθηγητής \selectlanguage{english}AUEB\selectlanguage{greek}\\
+                \end{tabbing}
+                \end{minipage}
            \vspace{3cm}
+
 
                 \begin{minipage}{\textwidth}
                     \@approval
@@ -309,8 +310,8 @@
 \translator{Διπλωματική Εργασία}
 \institution{Εθνικό Μετσόβιο Πολυτεχνείο}
 \department{Σχολή Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών}
-\division{Τομέας Επικοινωνιών, Ηλεκτρονικής και Συστημάτων Πληροφορικής}
-\lab{Εργαστήριο Διαχείρισης και Βέλτιστου Σχεδιασμού Δικτύων Τηλεματικής}
+\division{Τομέας Τεχνολογίας, Πληροφορικής και Υπολογιστών}
+\lab{Εργασ}
 \other{Ζωγράφου 157 73, Αθήνα}
 %\supervisor{Συμεών Παπαβασιλείου}
 
@@ -340,10 +341,10 @@
 \approval{
     Εγκρίθηκε από την τριμελή εξεταστική επιτροπή την 18η Οκτωβρίου 2018.
     \begin{tabbing}
-    aaaaaaaaaaaaaaaaaaaaaa\=aaaaaaaaaaaaaaaaaaaaaa\=\kill
+    aaaaaaaaaaaaaaaaaaaaaaaaa\=aaaaaaaaaaaaaaaaaaaaaa\=\kill
     \textit{(Υπογραφή)}\>   \textit{(Υπογραφή)}\>  \textit{(Υπογραφή)}\\\\\\
-    ........................\>  ........................\>  ........................\\
-    \@supervisoremp\>         \@epitropiF\>    \@epitropiS\\
+    ...........................\>  .........................\>  ........................\\
+    Αντρέας Γ. Σταφυλοπάτης\>         \@epitropiF\>    \@epitropiS\\
     Καθηγητής Ε.Μ.Π.\>     Καθηγητής Ε.Μ.Π.\>      Καθηγητής Ε.Μ.Π.\\\\\\\\
     \end{tabbing}
 
@@ -354,7 +355,7 @@
  \vspace{1cm}
  Με επιφύλαξη παντός δικαιώματος. \\[12pt]
     Απαγορεύεται η αντιγραφή, αποθήκευση και διανομή της παρούσας εργασίας, εξ
-    ολοκλήρου ή τμήματος αυτής, για εμπορικό σκοπό.  Επιτρέπεται η ανατύπωση,
+    ολοκλήρου ή τμήματος αυτής, για εμπορικό σκοπό. Επιτρέπεται η ανατύπωση,
     αποθήκευση και διανομή για σκοπό μη κερδοσκοπικό, εκπαιδευτικής ή
     ερευνητικής φύσης, υπό την προϋπόθεση να αναφέρεται η πηγή προέλευσης και να
     διατηρείται το παρόν μήνυμα.  Ερωτήματα που αφορούν τη χρήση της εργασίας
