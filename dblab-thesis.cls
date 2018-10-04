@@ -135,7 +135,7 @@
                 \begin{minipage}{15cm}
 				\begin{tabbing}
 				\large \textbf{\supervisorlixname :} \=\@supervisorlix\\
-                    \>Καθηγητής \selectlanguage{english}Ecole Polytechnique\selectlanguage{greek}, Καθηγητής \selectlanguage{english}AUEB\selectlanguage{greek}\\
+                    \>Καθηγητής \selectlanguage{english}Ecole Polytechnique\selectlanguage{greek}, Καθηγητής Ο.Π.Α.\\
                 \end{tabbing}
                 \end{minipage}
 
@@ -218,7 +218,7 @@
                 \begin{minipage}{15cm}
 				\begin{tabbing}
 				\large \textbf{\supervisorlixname :} \=\@supervisorlix\\
-                    \>Καθηγητής \selectlanguage{english}Ecole Polytechnique\selectlanguage{greek}, Καθηγητής \selectlanguage{english}AUEB\selectlanguage{greek}\\
+                    \>Καθηγητής \selectlanguage{english}Ecole Polytechnique\selectlanguage{greek}, Καθηγητής Ο.Π.Α.\\
                 \end{tabbing}
                 \end{minipage}
            \vspace{3cm}
@@ -341,11 +341,12 @@
 \approval{
     Εγκρίθηκε από την τριμελή εξεταστική επιτροπή την 18η Οκτωβρίου 2018.
     \begin{tabbing}
-    aaaaaaaaaaaaaaaaaaaaaaaaa\=aaaaaaaaaaaaaaaaaaaaaa\=\kill
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\=\kill
     \textit{(Υπογραφή)}\>   \textit{(Υπογραφή)}\>  \textit{(Υπογραφή)}\\\\\\
-    ...........................\>  .........................\>  ........................\\
-    Αντρέας Γ. Σταφυλοπάτης\>         \@epitropiF\>    \@epitropiS\\
-    Καθηγητής Ε.Μ.Π.\>     Καθηγητής Ε.Μ.Π.\>      Καθηγητής Ε.Μ.Π.\\\\\\\\
+    .........................................\>  ..................................\>  ...........................\\
+    Αντρέας Γεώργιος Σταφυλοπάτης\>         \@epitropiF\>    \@epitropiS\\
+    Καθηγητής Ε.Μ.Π.\>    Καθηγητής Ο.Π.Α. \>  Καθηγητής Ε.Μ.Π.\\
+         \> Καθηγητής \selectlanguage{english}Ecole Polytechnique\selectlanguage{greek} \>                                                          \\                                                                    \\\\\\
     \end{tabbing}
 
 }
