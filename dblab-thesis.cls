@@ -124,23 +124,24 @@
                 \hspace{1mm}
            \end{center}
 
+\vspace{1.0cm}
                 \begin{minipage}{15cm}
 				\begin{tabbing}
-                    \large \textbf{\supervisorempname :} \hspace{0.9cm}\=\@supervisoremp\\
+                    \large \textbf{\supervisorempname :} \hspace{1.05cm}\=\@supervisoremp\\
                     \>Καθηγητής Ε.Μ.Π.
                 \end{tabbing}
                 \end{minipage}
-\vspace{1.3cm}
+\vspace{1.0cm}
 
                 \begin{minipage}{15cm}
 				\begin{tabbing}
-				\large \textbf{\supervisorlixname :} \=\@supervisorlix\\
+				\large \textbf{\supervisorlixname :} \hspace{0.15cm}\=\@supervisorlix\\
                     \>Καθηγητής \selectlanguage{english}Ecole Polytechnique\selectlanguage{greek}, Καθηγητής Ο.Π.Α.\\
                 \end{tabbing}
                 \end{minipage}
 
 
-\vspace{0.7cm}
+\vspace{0.2cm}
 
 
 
@@ -209,19 +210,19 @@
 
                 \begin{minipage}{15cm}
 				\begin{tabbing}
-                    \large \textbf{\supervisorempname :} \hspace{0.9cm}\=\@supervisoremp\\
+                    \large \textbf{\supervisorempname :} \hspace{1.05cm}\=\@supervisoremp\\
                     \>Καθηγητής Ε.Μ.Π.
                 \end{tabbing}
                 \end{minipage}
-\vspace{0.6cm}
+\vspace{1.0cm}
 
                 \begin{minipage}{15cm}
 				\begin{tabbing}
-				\large \textbf{\supervisorlixname :} \=\@supervisorlix\\
-                    \>Καθηγητής \selectlanguage{english}Ecole Polytechnique\selectlanguage{greek}, Καθηγητής Ο.Π.Α.\\
+				\large \textbf{\supervisorlixname :} \hspace{0.15cm}\=\@supervisorlix\\
+                    \>Καθηγητής Ο.Π.Α., Καθηγητής \selectlanguage{english}Ecole Polytechnique\selectlanguage{greek}\\
                 \end{tabbing}
                 \end{minipage}
-           \vspace{3cm}
+           \vspace{2.5cm}
 
 
                 \begin{minipage}{\textwidth}
