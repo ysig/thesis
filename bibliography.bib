@@ -9,56 +9,15 @@
 }
 
 @unpublished{borgwardt2007,
-          author = {Karsten Michael Borgwardt},
+           month = {07},
            title = {Graph Kernels},
-       publisher = {Ludwig-Maximilians-Universit{\"a}t M{\"u}nchen},
-           month = {July},
             year = {2007},
+       publisher = {Ludwig-Maximilians-Universit{\"a}t M{\"u}nchen},
+          author = {Karsten Michael Borgwardt},
         keywords = {Graph Kernels, Graph Comparison, Kernel Methods, Feature Selection, Two-Sample-Test},
-             url = {http://nbn-resolving.de/urn:nbn:de:bvb:19-71691},
-        abstract = {As new graph structured data is constantly being generated, learning and data mining on graphs have become a challenge in application areas such as molecular biology, telecommunications, chemoinformatics, and social network analysis. The central algorithmic problem in these areas, measuring similarity of graphs, has therefore received extensive attention in the recent past. Unfortunately, existing approaches are slow, lacking in expressivity, or hard to parameterize. 
-
-Graph kernels have recently been proposed as a theoretically sound and promising approach to the problem of graph comparison. Their attractivity stems from the fact that by defining a kernel on graphs, a whole family of data mining and machine learning algorithms becomes applicable to graphs. 
-
-These kernels on graphs must respect both the information repr@article{Gartner:2003:SKS:959242.959248,
- author = {G\"{a}rtner, Thomas},
- title = {A Survey of Kernels for Structured Data},
- journal = {SIGKDD Explor. Newsl.},
- issue_date = {July 2003},
- volume = {5},
- number = {1},
- month = jul,
- year = {2003},
- issn = {1931-0145},
- pages = {49--58},
- numpages = {10},
- url = {http://doi.acm.org/10.1145/959242.959248},
- doi = {10.1145/959242.959248},
- acmid = {959248},
- publisher = {ACM},
- address = {New York, NY, USA},
- keywords = {inductive logic programming, kernel methods, multi-relational data mining, structured data},
-} esented by the topology and the node and edge labels of the graphs, while being efficient to compute. Existing methods fall woefully short; they miss out on important topological information, are plagued by runtime issues, and do not scale to large graphs. Hence the primary goal of this thesis is to make learning and data mining with graph kernels feasible.
-
-In the first half of this thesis, we review and analyze the shortcomings of state-of-the-art graph kernels. We then propose solutions to overcome these weaknesses. As highlights of our research, we 
-
-- speed up the classic random walk graph kernel from O(n{\^{ }}6) to O(n{\^{ }}3), where n is the number of nodes in the larger graph, and by a factor of up to 1,000 in CPU runtime, by extending concepts from Linear Algebra to Reproducing Kernel Hilbert Spaces,
-- define novel graph kernels based on shortest paths that avoid tottering and outperform random walk kernels in accuracy,
-- define novel graph kernels that estimate the frequency of small subgraphs within a large graph and that work on large graphs hitherto not handled by existing graph kernels.
-
-
-In the second half of this thesis, we present algorithmic solutions to two novel problems in graph mining. First, we define a two-sample test on graphs. Given two sets of graphs, or a pair of graphs, this test lets us decide whether these graphs are likely to originate from the same underlying distribution. To solve this so-called two-sample-problem, we define the first kernel-based two-sample test. Combined with graph kernels, this results in the first two-sample test on graphs described in the literature.
-
-Second, we propose a principled approach to supervised feature selection on graphs. As in feature selection on vectors, feature selection on graphs aims at finding features that are correlated with the class membership of a graph. Towards this goal, we first define a family of supervised feature selection algorithms based on kernels and the Hilbert-Schmidt Independence Criterion. We then show how to extend this principle of feature selection to graphs, and how to combine it with gSpan, the state-of-the-art method for frequent subgraph mining. On several benchmark datasets, our novel procedure manages to select a small subset of dozens of informative features among thousands and millions of subgraphs detected by gSpan. In classification experiments, the features selected by our method outperform those chosen by other feature selectors in terms of classification accuracy.
-
-Along the way, we also solve several problems that can be deemed contributions in their own right:
-
-- We define a unifying framework for describing both variants of random walk graph kernels proposed in the literature.
-- We present the first theoretical connection between graph kernels and molecular descriptors from chemoinformatics.
-- We show how to determine sample sizes for estimating the frequency of certain subgraphs within a large graph with a given precision and confidence, which promises to be a key to the solution of important problems in data mining and bioinformatics.
-
-Three branches of computer science immediately benefit from our findings: data mining, machine learning, and bioinformatics. For data mining, our efficient graph kernels allow us to bring to bear the large family of kernel methods to mining problems on real-world graph data. For machine learning, we open the door to extend strong theoretical results on learning on graphs into useful practical applications. For bioinformatics, we make a number of principled kernel methods and efficient kernel functions available for biological network comparison, and structural comparisons of proteins. Apart from these three areas, other fields may also benefit from our findings, as our algorithms are general in nature and not restricted to a particular type of application.}
+        url = {http://nbn-resolving.de/urn:nbn:de:bvb:19-71691}
 }
+
 
 @article{Aronszajn1950,
  ISSN = {00029947},
@@ -89,7 +48,7 @@ Three branches of computer science immediately benefit from our findings: data m
  issue_date = {July 2003},
  volume = {5},
  number = {1},
- month = jul,
+ month = {07},
  year = {2003},
  issn = {1931-0145},
  pages = {49--58},
@@ -154,7 +113,6 @@ Three branches of computer science immediately benefit from our findings: data m
 	author = {Vapnik, V and Lerner, A},
 	title = {Pattern Recognition using Generalized Portrait Method},
 	year = {1963},
-	abstract = {This is the first paper on Support Vector type algorithms.},
 	journal = {Automation and Remote Control},
 	volume = {24}
 }
@@ -177,8 +135,6 @@ number = {1},
 pages = {27-30},
 year = {2000},
 doi = {10.1093/nar/28.1.27},
-URL = {http://dx.doi.org/10.1093/nar/28.1.27},
-eprint = {/oup/backfile/content_public/journal/nar/28/1/10.1093_nar_28.1.27/1/280027.pdf}
 }
 
 @article{Genesys,
@@ -203,16 +159,7 @@ number = {39},
 pages = {11853-11865},
 year = {2003},
 doi = {10.1021/ja036030u},
-    note ={PMID: 14505407},
-
-URL = { 
-        https://doi.org/10.1021/ja036030u
-    
-},
-eprint = { 
-        https://doi.org/10.1021/ja036030u
-    
-}
+note ={PMID: 14505407},
 
 }
 @article {Davidson1669,
@@ -224,10 +171,7 @@ eprint = {
 	year = {2002},
 	doi = {10.1126/science.1069883},
 	publisher = {American Association for the Advancement of Science},
-	abstract = {Development of the body plan is controlled by large networks of regulatory genes. A gene regulatory network that controls the specification of endoderm and mesoderm in the sea urchin embryo is summarized here. The network was derived from large-scale perturbation analyses, in combination with computational methodologies, genomic data, cis-regulatory analysis, and molecular embryology. The network contains over 40 genes at present, and each node can be directly verified at the DNA sequence level by cis-regulatory analysis. Its architecture reveals specific and general aspects of development, such as how given cells generate their ordained fates in the embryo and why the process moves inexorably forward in developmental time.},
 	issn = {0036-8075},
-	URL = {http://science.sciencemag.org/content/295/5560/1669},
-	eprint = {http://science.sciencemag.org/content/295/5560/1669.full.pdf},
 	journal = {Science}
 }
 
@@ -246,12 +190,11 @@ and Vapnik, Vladimir",
 title="Support-Vector Networks",
 journal="Machine Learning",
 year="1995",
-month="Sep",
+month="11",
 day="01",
 volume="20",
 number="3",
 pages="273--297",
-abstract="The support-vector network is a new learning machine for two-group classification problems. The machine conceptually implements the following idea: input vectors are non-linearly mapped to a very high-dimension feature space. In this feature space a linear decision surface is constructed. Special properties of the decision surface ensures high generalization ability of the learning machine. The idea behind the support-vector network was previously implemented for the restricted case where the training data can be separated without errors. We here extend this result to non-separable training data.",
 issn="1573-0565",
 doi="10.1023/A:1022627411411",
 url="https://doi.org/10.1023/A:1022627411411"
@@ -543,7 +486,7 @@ pages={787-791},
 keywords={directed graphs;mathematics computing;support vector machines;trees (mathematics);DAG;PropBank data;complex learning algorithms;kernel methods;minimal direct acyclic graphs;online kernel learning;perceptron algorithm;structured objects;support vector machines;Bioinformatics;Classification tree analysis;Data mining;Kernel;Natural language processing;Phylogeny;Proteins;Support vector machines;Tree graphs;XML}, 
 doi={10.1109/ICDM.2006.69}, 
 ISSN={1550-4786}, 
-month={Dec},}
+month={12},}
 
 @inproceedings{STKernel,
  author = {Vishwanathan, S. V. N. and Smola, Alexander J.},
@@ -566,7 +509,7 @@ month={Dec},}
  issue_date = {February  2016},
  volume = {102},
  number = {2},
- month = feb,
+ month = {02},
  year = {2016},
  issn = {0885-6125},
  pages = {209--245},
@@ -605,7 +548,7 @@ year={2012},
 pages={2877-2880}, 
 keywords={entropy;graph theory;pattern clustering;Jensen-Shannon graph kernel;bioinformatics;graph clustering;information functional;object recognition;product graph;separate graph;von Neumann entropy;Accuracy;Biochemistry;Entropy;Hafnium;Kernel;Runtime;Support vector machines}, 
 ISSN={1051-4651}, 
-month={Nov},}
+month={11},}
 
 @INPROCEEDINGS{Ramon03expressivityversus,
     author = {Jan Ramon and Thomas Gärtner},
@@ -688,7 +631,7 @@ pages={179-188},
 keywords={computational complexity;data mining;graph theory;benchmark data sets;binary arrays;graph-structured data;knowledge discovery;linear time complexity;linear-time graph kernel;logical operations;Chemical compounds;Computational efficiency;Data mining;Informatics;Kernel;Logic arrays;Machine learning;Polynomials;Scalability;Time measurement}, 
 doi={10.1109/ICDM.2009.30}, 
 ISSN={1550-4786}, 
-month={Dec},}
+month={12},}
 
 @inproceedings{Kriege2012SubgraphMK,
   title={Subgraph Matching Kernels for Attributed Graphs},
@@ -703,12 +646,11 @@ and Vert, Jean-Philippe",
 title="Graph kernels based on tree patterns for molecules",
 journal="Machine Learning",
 year="2009",
-month="Apr",
+month="04",
 day="01",
 volume="75",
 number="1",
 pages="3--35",
-abstract="Motivated by chemical applications, we revisit and extend a family of positive definite kernels for graphs based on the detection of common subtrees, initially proposed by Ramon and G{\"a}rtner (Proceedings of the first international workshop on mining graphs, trees and sequences, pp. 65--74, 2003). We propose new kernels with a parameter to control the complexity of the subtrees used as features to represent the graphs. This parameter allows to smoothly interpolate between classical graph kernels based on the count of common walks, on the one hand, and kernels that emphasize the detection of large common subtrees, on the other hand. We also propose two modular extensions to this formulation. The first extension increases the number of subtrees that define the feature space, and the second one removes noisy features from the graph representations. We validate experimentally these new kernels on problems of toxicity and anti-cancer activity prediction for small molecules with support vector machines.",
 issn="1573-0565",
 doi="10.1007/s10994-008-5086-2",
 url="https://doi.org/10.1007/s10994-008-5086-2"
@@ -844,12 +786,11 @@ and Karypis, George",
 title="Comparison of descriptor spaces for chemical compound retrieval and classification",
 journal="Knowledge and Information Systems",
 year="2008",
-month="Mar",
+month="03",
 day="01",
 volume="14",
 number="3",
 pages="347--375",
-abstract="In recent years the development of computational techniques that build models to correctly assign chemical compounds to various classes or to retrieve potential drug-like compounds has been an active area of research. Many of the best-performing techniques for these tasks utilize a descriptor-based representation of the compound that captures various aspects of the underlying molecular graph's topology. In this paper we compare five different set of descriptors that are currently used for chemical compound classification. We also introduce four different descriptors derived from all connected fragments present in the molecular graphs primarily for the purpose of comparing them to the currently used descriptor spaces and analyzing what properties of descriptor spaces are helpful in providing effective representation for molecular graphs. In addition, we introduce an extension to existing vector-based kernel functions to take into account the length of the fragments present in the descriptors. We experimentally evaluate the performance of the previously introduced and the new descriptors in the context of SVM-based classification and ranked-retrieval on 28 classification and retrieval problems derived from 18 datasets. Our experiments show that for both of these tasks, two of the four descriptors introduced in this paper along with the extended connectivity fingerprint based descriptors consistently and statistically outperform previously developed schemes based on the widely used fingerprint- and Maccs keys-based descriptors, as well as recently introduced descriptors obtained by mining and analyzing the structure of the molecular graphs.",
 issn="0219-3116",
 doi="10.1007/s10115-007-0103-5",
 url="https://doi.org/10.1007/s10115-007-0103-5"
@@ -885,7 +826,6 @@ year="2008",
 publisher="Springer Berlin Heidelberg",
 address="Berlin, Heidelberg",
 pages="287--297",
-abstract="In recent years the use of graph based representation has gained popularity in pattern recognition and machine learning. As a matter of fact, object representation by means of graphs has a number of advantages over feature vectors. Therefore, various algorithms for graph based machine learning have been proposed in the literature. However, in contrast with the emerging interest in graph based representation, a lack of standardized graph data sets for benchmarking can be observed. Common practice is that researchers use their own data sets, and this behavior cumbers the objective evaluation of the proposed methods. In order to make the different approaches in graph based machine learning better comparable, the present paper aims at introducing a repository of graph data sets and corresponding benchmarks, covering a wide spectrum of different applications.",
 isbn="978-3-540-89689-0"
 }
 
@@ -906,7 +846,6 @@ year="2006",
 publisher="Springer Berlin Heidelberg",
 address="Berlin, Heidelberg",
 pages="318--329",
-abstract="In this paper, we provide a study on the use of tree kernels to encode syntactic parsing information in natural language learning. In particular, we propose a new convolution kernel, namely the Partial Tree (PT) kernel, to fully exploit dependency trees. We also propose an efficient algorithm for its computation which is futhermore sped-up by applying the selection of tree nodes with non-null kernel. The experiments with Support Vector Machines on the task of semantic role labeling and question classification show that (a) the kernel running time is linear on the average case and (b) the PT kernel improves on the other tree kernels when applied to the appropriate parsing paradigm.",
 isbn="978-3-540-46056-5"
 }
 
@@ -969,7 +908,7 @@ pages={512-516},
 keywords={circuit analysis computing;circuit layout CAD;large scale integration;LSI;layout verification;circuit comparison system;rule-based functional isomorphism checking;network reduction;graph isomorphism-based comparison;large networks;Circuits;Data mining;Design methodology;Software engineering;Laboratories;Microcomputers;Humans;Fabrication;Large scale integration;Central Processing Unit}, 
 doi={10.1109/DAC.1988.14808}, 
 ISSN={0738-100X}, 
-month={June},}
+month={06},}
 
 @inproceedings{Gitchell1999,
  author = {Gitchell, David and Tran, Nicholas},
@@ -995,12 +934,11 @@ and Karypis, George",
 title="Comparison of descriptor spaces for chemical compound retrieval and classification",
 journal="Knowledge and Information Systems",
 year="2008",
-month="Mar",
+month="03",
 day="01",
 volume="14",
 number="3",
 pages="347--375",
-abstract="In recent years the development of computational techniques that build models to correctly assign chemical compounds to various classes or to retrieve potential drug-like compounds has been an active area of research. Many of the best-performing techniques for these tasks utilize a descriptor-based representation of the compound that captures various aspects of the underlying molecular graph's topology. In this paper we compare five different set of descriptors that are currently used for chemical compound classification. We also introduce four different descriptors derived from all connected fragments present in the molecular graphs primarily for the purpose of comparing them to the currently used descriptor spaces and analyzing what properties of descriptor spaces are helpful in providing effective representation for molecular graphs. In addition, we introduce an extension to existing vector-based kernel functions to take into account the length of the fragments present in the descriptors. We experimentally evaluate the performance of the previously introduced and the new descriptors in the context of SVM-based classification and ranked-retrieval on 28 classification and retrieval problems derived from 18 datasets. Our experiments show that for both of these tasks, two of the four descriptors introduced in this paper along with the extended connectivity fingerprint based descriptors consistently and statistically outperform previously developed schemes based on the widely used fingerprint- and Maccs keys-based descriptors, as well as recently introduced descriptors obtained by mining and analyzing the structure of the molecular graphs.",
 issn="0219-3116",
 doi="10.1007/s10115-007-0103-5",
 url="https://doi.org/10.1007/s10115-007-0103-5"
@@ -1052,7 +990,7 @@ pages={63-68},
 keywords={graph theory;invasive software;support vector machines;malware analysis;graph kernels;support vector machines;SVM;host-level intrusion detection;application level monitoring;Kernel;Support vector machines;Tree graphs;Support vector machine classification;Intrusion detection;In vitro;Condition monitoring;Computer architecture;Information analysis;Software systems}, 
 doi={10.1109/MALWARE.2009.5403018}, 
 ISSN={}, 
-month={Oct},}
+month={10},}
 
 @article{Swamidass2005,
   title={Kernels for small molecules and the prediction of mutagenicity, toxicity and anti-cancer activity},
@@ -1067,7 +1005,7 @@ month={Oct},}
 title="Book Reviews",
 journal="Mathematical Methods of Operations Research",
 year="2001",
-month="Jun",
+month="06",
 day="01",
 volume="53",
 number="2",
@@ -1105,3 +1043,15 @@ url = {http://papers.nips.cc/paper/6166-on-valid-optimal-assignment-kernels-and-
  address = {New York, NY, USA},
 } 
 
+@article{graphembeddings,
+author={H. Cai and V. W. Zheng and K. C. Chang},
+journal={IEEE Transactions on Knowledge and Data Engineering},
+title={A Comprehensive Survey of Graph Embedding: Problems, Techniques, and Applications},
+year={2018},
+volume={30},
+number={9},
+pages={1616-1637},
+keywords={data analysis;graph theory;learning (artificial intelligence);graph structural information;graph analytics problem;graph data;graph embedding problem settings;data representation;node classification;node recommendation;link prediction;high computation;space cost;graph properties;formal definition;Taxonomy;Task analysis;Electronic mail;Social network services;Toy manufacturing industry;Two dimensional displays;Machine learning;Graph embedding;graph analytics;graph embedding survey;network embedding},
+doi={10.1109/TKDE.2018.2807452},
+ISSN={1041-4347},
+month={09},}

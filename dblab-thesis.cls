@@ -136,7 +136,7 @@
                 \begin{minipage}{15cm}
 				\begin{tabbing}
 				\large \textbf{\supervisorlixname :} \hspace{0.15cm}\=\@supervisorlix\\
-                    \>Καθηγητής \selectlanguage{english}Ecole Polytechnique\selectlanguage{greek}, Καθηγητής Ο.Π.Α.\\
+                    \>Καθηγητής Ο.Π.Α., Καθηγητής \selectlanguage{english}Ecole Polytechnique\selectlanguage{greek}\\
                 \end{tabbing}
                 \end{minipage}
 
