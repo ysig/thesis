@@ -323,7 +323,7 @@
 \large{\textbf{\textsc{\@author}}}\\
 \large{Διπλωματούχος Ηλεκτρολόγος Μηχανικός και Μηχανικός
 Υπολογιστών Ε.Μ.Π.}\\
-\en{\textcopyright} \en{2018 -- All rights reserved}
+\en{Copyright \textcopyright} Γιάννης Σιγλίδης, \en{2018 -- All rights reserved}
 
 }
 

@@ -72,7 +72,7 @@ Bέβαια, ο σημαντικότερος ίσως λόγος για τον �
 Τότε κάθε κλάση ενός πυρήνα που υλοποιεί την κλάση \en{\texttt{Kernel}}, θα πρέπει να έχει την ακόλουθη συμπεριφορά:
 \begin{itemize}
 \item $\mathcal{K}^{n\times n}=\texttt{\en{<KernelName>.fit\_transform}}(\mathcal{G}^{n})$
-\item $\mathcal{K}^{m\times n}=\texttt{\en{<KernelName>.fit}}(\mathcal{G}^{\text{n}}).\texttt{transform}(\mathcal{G}^{\text{m}})$
+\item $\mathcal{K}^{m\times n}=\texttt{\en{<KernelName>.fit}}(\mathcal{G}^{\text{n}}).\texttt{\en{transform}}(\mathcal{G}^{\text{m}})$
 \item $\mathcal{K}=\texttt{\en{<KernelName>.fit\_transform}}([\mathcal{G}^{n}\; \mathcal{G}^{m}])$
 \end{itemize}
 Σε ένα πρόβλημα ταξινόμησης γράφων (βλ. \ref{subsection:graph_classification}), αυτό που χρειάζεται να υπολογίσουμε είναι οι πυρήνες $\mathcal{K}^{n\times n}$ και $\mathcal{K}^{m\times n}$.
